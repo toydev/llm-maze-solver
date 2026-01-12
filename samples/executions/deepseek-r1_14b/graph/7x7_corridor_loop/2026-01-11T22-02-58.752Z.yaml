@@ -1,0 +1,151 @@
+mazeFile: mazes/7x7_corridor_loop.txt
+modelName: deepseek-r1:14b
+strategyName: graph
+includeHistory: true
+cellResults:
+  - position:
+      x: 1
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 19231
+  - position:
+      x: 3
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - down
+      - right
+    timeMs: 12520
+  - position:
+      x: 4
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 30335
+  - position:
+      x: 5
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 20021
+  - position:
+      x: 1
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 24572
+  - position:
+      x: 3
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 51463
+  - position:
+      x: 5
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 43258
+  - position:
+      x: 1
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 50205
+  - position:
+      x: 2
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 27333
+  - position:
+      x: 3
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 34656
+  - position:
+      x: 4
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 20688
+  - position:
+      x: 5
+      y: 3
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 8874
+  - position:
+      x: 1
+      y: 4
+    isCorrect: false
+    llmMove: down
+    correctMoves:
+      - up
+    timeMs: 27320
+  - position:
+      x: 3
+      y: 4
+    isCorrect: true
+    llmMove: up
+    correctMoves:
+      - up
+    timeMs: 60233
+  - position:
+      x: 5
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 11654
+  - position:
+      x: 1
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - up
+      - right
+    timeMs: 18041
+  - position:
+      x: 2
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 59044
+  - position:
+      x: 3
+      y: 5
+    isCorrect: true
+    llmMove: up
+    correctMoves:
+      - up
+    timeMs: 89449

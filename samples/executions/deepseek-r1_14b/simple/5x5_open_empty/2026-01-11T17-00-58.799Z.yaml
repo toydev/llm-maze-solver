@@ -1,0 +1,73 @@
+mazeFile: mazes/5x5_open_empty.txt
+modelName: deepseek-r1:14b
+strategyName: simple
+includeHistory: true
+cellResults:
+  - position:
+      x: 1
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+      - right
+    timeMs: 126117
+  - position:
+      x: 2
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+      - right
+    timeMs: 79633
+  - position:
+      x: 3
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 46722
+  - position:
+      x: 1
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+      - right
+    timeMs: 104385
+  - position:
+      x: 2
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+      - right
+    timeMs: 113443
+  - position:
+      x: 3
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 40775
+  - position:
+      x: 1
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 41596
+  - position:
+      x: 2
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 73989

@@ -1,0 +1,133 @@
+mazeFile: mazes/7x7_corridor_dead-end.txt
+modelName: gpt-oss:20b
+strategyName: graph
+includeHistory: true
+cellResults:
+  - position:
+      x: 1
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 7285
+  - position:
+      x: 3
+      y: 1
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 16169
+  - position:
+      x: 4
+      y: 1
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 43466
+  - position:
+      x: 5
+      y: 1
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 14537
+  - position:
+      x: 1
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 54166
+  - position:
+      x: 3
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 36541
+  - position:
+      x: 1
+      y: 3
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 12503
+  - position:
+      x: 3
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 16237
+  - position:
+      x: 4
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 15309
+  - position:
+      x: 5
+      y: 3
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 15020
+  - position:
+      x: 1
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 10580
+  - position:
+      x: 3
+      y: 4
+    isCorrect: true
+    llmMove: up
+    correctMoves:
+      - up
+    timeMs: 11737
+  - position:
+      x: 5
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 6743
+  - position:
+      x: 1
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 8733
+  - position:
+      x: 2
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 17966
+  - position:
+      x: 3
+      y: 5
+    isCorrect: true
+    llmMove: up
+    correctMoves:
+      - up
+    timeMs: 25715

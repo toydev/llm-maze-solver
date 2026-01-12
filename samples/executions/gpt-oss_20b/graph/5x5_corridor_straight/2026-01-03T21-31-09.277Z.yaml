@@ -1,0 +1,53 @@
+mazeFile: mazes/5x5_corridor_straight.txt
+modelName: gpt-oss:20b
+strategyName: graph
+includeHistory: true
+cellResults:
+  - position:
+      x: 1
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 6205
+  - position:
+      x: 1
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 13842
+  - position:
+      x: 3
+      y: 2
+    isCorrect: true
+    llmMove: up
+    correctMoves:
+      - up
+    timeMs: 14999
+  - position:
+      x: 1
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 9760
+  - position:
+      x: 2
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 13444
+  - position:
+      x: 3
+      y: 3
+    isCorrect: true
+    llmMove: up
+    correctMoves:
+      - up
+    timeMs: 11995

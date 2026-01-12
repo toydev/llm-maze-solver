@@ -1,0 +1,53 @@
+mazeFile: mazes/5x5_corridor_straight.txt
+modelName: deepseek-r1:14b
+strategyName: list
+includeHistory: true
+cellResults:
+  - position:
+      x: 1
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 28026
+  - position:
+      x: 1
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 25184
+  - position:
+      x: 3
+      y: 2
+    isCorrect: true
+    llmMove: up
+    correctMoves:
+      - up
+    timeMs: 12943
+  - position:
+      x: 1
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 46833
+  - position:
+      x: 2
+      y: 3
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 56402
+  - position:
+      x: 3
+      y: 3
+    isCorrect: true
+    llmMove: up
+    correctMoves:
+      - up
+    timeMs: 23128

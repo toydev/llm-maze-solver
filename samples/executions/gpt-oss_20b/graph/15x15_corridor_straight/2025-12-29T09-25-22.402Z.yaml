@@ -1,0 +1,773 @@
+mazeFile: mazes/15x15_corridor_straight.txt
+modelName: gpt-oss:20b
+strategyName: graph
+includeHistory: true
+cellResults:
+  - position:
+      x: 1
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 98065
+  - position:
+      x: 2
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 20927
+  - position:
+      x: 3
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 356255
+  - position:
+      x: 4
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 41226
+  - position:
+      x: 5
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 60651
+  - position:
+      x: 6
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 320006
+  - position:
+      x: 7
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 16108
+  - position:
+      x: 8
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 12803
+  - position:
+      x: 9
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 167137
+  - position:
+      x: 10
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 59443
+  - position:
+      x: 11
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 13030
+  - position:
+      x: 12
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 11379
+  - position:
+      x: 13
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 10197
+  - position:
+      x: 13
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 7025
+  - position:
+      x: 1
+      y: 3
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 54285
+  - position:
+      x: 2
+      y: 3
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 197176
+  - position:
+      x: 3
+      y: 3
+    isCorrect: false
+    llmMove: null
+    correctMoves:
+      - left
+    timeMs: 725584
+  - position:
+      x: 4
+      y: 3
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 1891211
+  - position:
+      x: 5
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 29349
+  - position:
+      x: 6
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 264863
+  - position:
+      x: 7
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 26467
+  - position:
+      x: 8
+      y: 3
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 76140
+  - position:
+      x: 9
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 11084
+  - position:
+      x: 10
+      y: 3
+    isCorrect: false
+    llmMove: null
+    correctMoves:
+      - left
+    timeMs: 423629
+  - position:
+      x: 11
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 76540
+  - position:
+      x: 12
+      y: 3
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 164428
+  - position:
+      x: 13
+      y: 3
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 11850
+  - position:
+      x: 1
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 19110
+  - position:
+      x: 1
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 27295
+  - position:
+      x: 2
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 37447
+  - position:
+      x: 3
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 60933
+  - position:
+      x: 4
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 70812
+  - position:
+      x: 5
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 24188
+  - position:
+      x: 6
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 18840
+  - position:
+      x: 7
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 9328
+  - position:
+      x: 8
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 234104
+  - position:
+      x: 9
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 20995
+  - position:
+      x: 10
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 50277
+  - position:
+      x: 11
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 18424
+  - position:
+      x: 12
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 4874
+  - position:
+      x: 13
+      y: 5
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 16749
+  - position:
+      x: 13
+      y: 6
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 114464
+  - position:
+      x: 1
+      y: 7
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 19356
+  - position:
+      x: 2
+      y: 7
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 50115
+  - position:
+      x: 3
+      y: 7
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 125675
+  - position:
+      x: 4
+      y: 7
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 53568
+  - position:
+      x: 5
+      y: 7
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 86562
+  - position:
+      x: 6
+      y: 7
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 128444
+  - position:
+      x: 7
+      y: 7
+    isCorrect: false
+    llmMove: null
+    correctMoves:
+      - left
+    timeMs: 2107002
+  - position:
+      x: 8
+      y: 7
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 56221
+  - position:
+      x: 9
+      y: 7
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 125138
+  - position:
+      x: 10
+      y: 7
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 51464
+  - position:
+      x: 11
+      y: 7
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 130153
+  - position:
+      x: 12
+      y: 7
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 444739
+  - position:
+      x: 13
+      y: 7
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 1956133
+  - position:
+      x: 1
+      y: 8
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 19262
+  - position:
+      x: 1
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 71871
+  - position:
+      x: 2
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 1351070
+  - position:
+      x: 3
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 16679
+  - position:
+      x: 4
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 50881
+  - position:
+      x: 5
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 15915
+  - position:
+      x: 6
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 15968
+  - position:
+      x: 7
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 20689
+  - position:
+      x: 8
+      y: 9
+    isCorrect: false
+    llmMove: null
+    correctMoves:
+      - right
+    timeMs: 2132986
+  - position:
+      x: 9
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 22748
+  - position:
+      x: 10
+      y: 9
+    isCorrect: false
+    llmMove: left
+    correctMoves:
+      - right
+    timeMs: 657376
+  - position:
+      x: 11
+      y: 9
+    isCorrect: false
+    llmMove: null
+    correctMoves:
+      - right
+    timeMs: 2147943
+  - position:
+      x: 12
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 23536
+  - position:
+      x: 13
+      y: 9
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 11818
+  - position:
+      x: 13
+      y: 10
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 11934
+  - position:
+      x: 1
+      y: 11
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 65076
+  - position:
+      x: 2
+      y: 11
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 30988
+  - position:
+      x: 3
+      y: 11
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 482188
+  - position:
+      x: 4
+      y: 11
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 92297
+  - position:
+      x: 5
+      y: 11
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 1111699
+  - position:
+      x: 6
+      y: 11
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 156541
+  - position:
+      x: 7
+      y: 11
+    isCorrect: false
+    llmMove: null
+    correctMoves:
+      - left
+    timeMs: 2142790
+  - position:
+      x: 8
+      y: 11
+    isCorrect: false
+    llmMove: up
+    correctMoves:
+      - left
+    timeMs: 1146595
+  - position:
+      x: 9
+      y: 11
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 176711
+  - position:
+      x: 10
+      y: 11
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 117046
+  - position:
+      x: 11
+      y: 11
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 40319
+  - position:
+      x: 12
+      y: 11
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 169255
+  - position:
+      x: 13
+      y: 11
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 189958
+  - position:
+      x: 1
+      y: 12
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 24952
+  - position:
+      x: 1
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 14849
+  - position:
+      x: 2
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 15585
+  - position:
+      x: 3
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 13851
+  - position:
+      x: 4
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 13997
+  - position:
+      x: 5
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 16553
+  - position:
+      x: 6
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 15525
+  - position:
+      x: 7
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 21663
+  - position:
+      x: 8
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 19490
+  - position:
+      x: 9
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 31143
+  - position:
+      x: 10
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 33546
+  - position:
+      x: 11
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 20886
+  - position:
+      x: 12
+      y: 13
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 9822

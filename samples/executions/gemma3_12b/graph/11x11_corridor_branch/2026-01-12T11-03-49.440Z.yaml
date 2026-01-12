@@ -1,0 +1,398 @@
+mazeFile: mazes/11x11_corridor_branch.txt
+modelName: gemma3:12b
+strategyName: graph
+includeHistory: false
+cellResults:
+  - position:
+      x: 1
+      y: 1
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 910
+  - position:
+      x: 3
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - down
+      - right
+    timeMs: 933
+  - position:
+      x: 4
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 931
+  - position:
+      x: 5
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 942
+  - position:
+      x: 6
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 922
+  - position:
+      x: 7
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 925
+  - position:
+      x: 8
+      y: 1
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 934
+  - position:
+      x: 9
+      y: 1
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 925
+  - position:
+      x: 1
+      y: 2
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 937
+  - position:
+      x: 3
+      y: 2
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 922
+  - position:
+      x: 9
+      y: 2
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 940
+  - position:
+      x: 1
+      y: 3
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 922
+  - position:
+      x: 3
+      y: 3
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 927
+  - position:
+      x: 5
+      y: 3
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 938
+  - position:
+      x: 6
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 928
+  - position:
+      x: 7
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 929
+  - position:
+      x: 8
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 919
+  - position:
+      x: 9
+      y: 3
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - left
+    timeMs: 931
+  - position:
+      x: 1
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 946
+  - position:
+      x: 3
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 930
+  - position:
+      x: 5
+      y: 4
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 928
+  - position:
+      x: 1
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 920
+  - position:
+      x: 2
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 925
+  - position:
+      x: 3
+      y: 5
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 923
+  - position:
+      x: 5
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 918
+  - position:
+      x: 6
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 927
+  - position:
+      x: 7
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 920
+  - position:
+      x: 8
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 927
+  - position:
+      x: 9
+      y: 5
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 925
+  - position:
+      x: 3
+      y: 6
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 933
+  - position:
+      x: 9
+      y: 6
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 995
+  - position:
+      x: 1
+      y: 7
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 944
+  - position:
+      x: 2
+      y: 7
+    isCorrect: false
+    llmMove: down
+    correctMoves:
+      - left
+    timeMs: 945
+  - position:
+      x: 3
+      y: 7
+    isCorrect: false
+    llmMove: down
+    correctMoves:
+      - left
+    timeMs: 950
+  - position:
+      x: 5
+      y: 7
+    isCorrect: false
+    llmMove: down
+    correctMoves:
+      - right
+    timeMs: 943
+  - position:
+      x: 6
+      y: 7
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 929
+  - position:
+      x: 7
+      y: 7
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 929
+  - position:
+      x: 9
+      y: 7
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 931
+  - position:
+      x: 1
+      y: 8
+    isCorrect: false
+    llmMove: up
+    correctMoves:
+      - down
+    timeMs: 931
+  - position:
+      x: 5
+      y: 8
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - up
+    timeMs: 924
+  - position:
+      x: 7
+      y: 8
+    isCorrect: false
+    llmMove: right
+    correctMoves:
+      - down
+    timeMs: 935
+  - position:
+      x: 9
+      y: 8
+    isCorrect: false
+    llmMove: up
+    correctMoves:
+      - down
+    timeMs: 928
+  - position:
+      x: 1
+      y: 9
+    isCorrect: false
+    llmMove: left
+    correctMoves:
+      - right
+    timeMs: 948
+  - position:
+      x: 2
+      y: 9
+    isCorrect: false
+    llmMove: up
+    correctMoves:
+      - right
+    timeMs: 953
+  - position:
+      x: 3
+      y: 9
+    isCorrect: false
+    llmMove: left
+    correctMoves:
+      - right
+    timeMs: 942
+  - position:
+      x: 4
+      y: 9
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 938
+  - position:
+      x: 5
+      y: 9
+    isCorrect: false
+    llmMove: left
+    correctMoves:
+      - up
+    timeMs: 950
+  - position:
+      x: 7
+      y: 9
+    isCorrect: false
+    llmMove: up
+    correctMoves:
+      - right
+    timeMs: 930
+  - position:
+      x: 8
+      y: 9
+    isCorrect: false
+    llmMove: up
+    correctMoves:
+      - right
+    timeMs: 950

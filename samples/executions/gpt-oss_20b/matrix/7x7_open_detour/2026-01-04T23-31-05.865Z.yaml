@@ -1,0 +1,173 @@
+mazeFile: mazes/7x7_open_detour.txt
+modelName: gpt-oss:20b
+strategyName: matrix
+includeHistory: false
+cellResults:
+  - position:
+      x: 1
+      y: 1
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 26770
+  - position:
+      x: 2
+      y: 1
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - down
+      - left
+    timeMs: 33926
+  - position:
+      x: 3
+      y: 1
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - down
+      - left
+    timeMs: 52474
+  - position:
+      x: 4
+      y: 1
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - down
+      - left
+    timeMs: 26771
+  - position:
+      x: 5
+      y: 1
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - down
+      - left
+    timeMs: 43233
+  - position:
+      x: 1
+      y: 2
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 59977
+  - position:
+      x: 2
+      y: 2
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 96369
+  - position:
+      x: 3
+      y: 2
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 41820
+  - position:
+      x: 4
+      y: 2
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 61712
+  - position:
+      x: 5
+      y: 2
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 80892
+  - position:
+      x: 1
+      y: 3
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 36595
+  - position:
+      x: 1
+      y: 4
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - down
+      - right
+    timeMs: 28183
+  - position:
+      x: 2
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+      - right
+    timeMs: 103884
+  - position:
+      x: 3
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+    timeMs: 19340
+  - position:
+      x: 4
+      y: 4
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - down
+      - left
+    timeMs: 49996
+  - position:
+      x: 5
+      y: 4
+    isCorrect: true
+    llmMove: down
+    correctMoves:
+      - down
+      - left
+    timeMs: 67876
+  - position:
+      x: 1
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 30001
+  - position:
+      x: 2
+      y: 5
+    isCorrect: true
+    llmMove: right
+    correctMoves:
+      - right
+    timeMs: 29904
+  - position:
+      x: 4
+      y: 5
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 16309
+  - position:
+      x: 5
+      y: 5
+    isCorrect: true
+    llmMove: left
+    correctMoves:
+      - left
+    timeMs: 17993

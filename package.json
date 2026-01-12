@@ -1,0 +1,41 @@
+{
+  "name": "maze-exploration-experiment",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "execute": "vite-node src/cli/execute.ts",
+    "analyze": "vite-node src/cli/analyze.ts",
+    "export-stats": "vite-node src/cli/export-stats.ts"
+  },
+  "dependencies": {
+    "@langchain/ollama": "^1.1.0",
+    "commander": "^14.0.2",
+    "loglevel": "^1.9.2",
+    "picocolors": "^1.1.1",
+    "pretty-ms": "^9.3.0",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "@types/node": "^24.10.4",
+    "@typescript-eslint/eslint-plugin": "^8.50.1",
+    "@typescript-eslint/parser": "^8.50.1",
+    "eslint": "^9",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.7.4",
+    "typescript": "^5",
+    "vite": "^7.3.0",
+    "vite-node": "^5.2.0",
+    "vitest": "^4.0.16"
+  }
+}

@@ -1,0 +1,70 @@
+## Strategy x Size (straight / empty, with history)
+
+| size | strategy | accuracy_mean | timePerCell_mean |
+| --- | --- | --- | --- |
+| 5 | graph | 100.0 | 11.8 |
+| 5 | list | 100.0 | 11.5 |
+| 5 | matrix | 100.0 | 18.6 |
+| 5 | simple | 100.0 | 28.8 |
+| 7 | graph | 100.0 | 17.4 |
+| 7 | list | 100.0 | 16.4 |
+| 7 | matrix | 100.0 | 31.2 |
+| 7 | simple | 96.8 | 77.2 |
+| 11 | graph | 94.8 | 64.1 |
+| 11 | list | 97.9 | 30.6 |
+| 11 | matrix | 96.2 | 75.0 |
+| 11 | simple | 82.3 | 313.3 |
+| 15 | graph | 89.2 | 190.0 |
+| 15 | list | 94.8 | 40.8 |
+
+## 11x11 list x Maze Type x History
+
+| mazeType | history | accuracy | timePerCell |
+| --- | --- | --- | --- |
+| corridor_branch | no | 85.7 | 215.68 |
+| corridor_branch | yes | 89.8 | 36.62 |
+| corridor_dead-end | no | 87.5 | 218.35 |
+| corridor_dead-end | yes | 83.3 | 103.04 |
+| corridor_loop | no | 88 | 143.62 |
+| corridor_loop | yes | 78 | 85.41 |
+| corridor_spiral | no | 60.4 | 498.76 |
+| corridor_spiral | yes | 83.3 | 276.42 |
+| corridor_straight | no | 87.5 | 71.16 |
+| corridor_straight | yes | 95.8 | 48.62 |
+| open_detour | no | 100 | 38.52 |
+| open_detour | yes | 100 | 36.7 |
+| open_empty | no | 100 | 9.77 |
+| open_empty | yes | 100 | 12.56 |
+| open_pass | no | 98.6 | 37.43 |
+| open_pass | yes | 100 | 27.88 |
+
+## list x Maze Type x Size (with history)
+
+| mazeType | size | accuracy_mean | timePerCell_mean |
+| --- | --- | --- | --- |
+| corridor_branch | 7 | 88.2 | 17.9 |
+| corridor_branch | 11 | 89.8 | 36.6 |
+| corridor_branch | 15 | 80.4 | 175.7 |
+| corridor_dead-end | 7 | 87.5 | 31.0 |
+| corridor_dead-end | 11 | 83.3 | 103.0 |
+| corridor_dead-end | 15 | 63.5 | 323.5 |
+| corridor_loop | 7 | 77.8 | 31.2 |
+| corridor_loop | 11 | 78.0 | 85.4 |
+| corridor_loop | 15 | 77.8 | 194.1 |
+| corridor_spiral | 7 | 100.0 | 30.4 |
+| corridor_spiral | 11 | 83.3 | 276.4 |
+| corridor_spiral | 15 | 55.2 | 508.0 |
+| corridor_straight | 5 | 100.0 | 14.3 |
+| corridor_straight | 7 | 100.0 | 22.2 |
+| corridor_straight | 11 | 95.8 | 48.6 |
+| corridor_straight | 15 | 89.6 | 68.5 |
+| open_detour | 7 | 90.0 | 24.6 |
+| open_detour | 11 | 100.0 | 36.7 |
+| open_detour | 15 | 98.7 | 35.4 |
+| open_empty | 5 | 100.0 | 8.6 |
+| open_empty | 7 | 100.0 | 10.5 |
+| open_empty | 11 | 100.0 | 12.6 |
+| open_empty | 15 | 100.0 | 13.2 |
+| open_pass | 7 | 100.0 | 18.0 |
+| open_pass | 11 | 100.0 | 27.9 |
+| open_pass | 15 | 98.6 | 30.3 |
