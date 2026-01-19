@@ -13,12 +13,12 @@ const MoveSchema = {
 
 program
   .name('reasoning-test')
-  .requiredOption('-z, --maze <file>', '迷路ファイル (例: 5x5_corridor_straight)')
-  .requiredOption('-s, --strategy <name>', '戦略名 (例: list)')
-  .requiredOption('-p, --position <x,y>', '現在位置 (例: 1,1)')
-  .option('-m, --model <name>', 'モデル名', 'gpt-oss:20b')
-  .option('-t, --think <value>', 'thinking 設定 (true/false/low/medium/high)', 'true')
-  .option('-H, --history', '履歴を含める')
+  .requiredOption('-z, --maze <file>', 'Maze file (e.g., 5x5_corridor_straight)')
+  .requiredOption('-s, --strategy <name>', 'Strategy name (e.g., list)')
+  .requiredOption('-p, --position <x,y>', 'Current position (e.g., 1,1)')
+  .option('-m, --model <name>', 'Model name', 'gpt-oss:20b')
+  .option('-t, --think <value>', 'Think setting (true/false/low/medium/high)', 'true')
+  .option('-H, --history', 'Include visit history')
   .parse();
 
 const opts = program.opts();
@@ -41,21 +41,21 @@ async function main() {
 
   const prompt = strategy.buildPrompt(maze, position, history);
 
-  console.log('=== 条件 ===');
-  console.log(`モデル: ${opts.model}`);
-  console.log(`迷路: ${opts.maze}`);
-  console.log(`戦略: ${opts.strategy}`);
-  console.log(`位置: (${x},${y})`);
-  console.log(`履歴: ${opts.history ? 'あり' : 'なし'}`);
-  console.log(`think: ${opts.think}`);
+  console.log('=== Conditions ===');
+  console.log(`Model: ${opts.model}`);
+  console.log(`Maze: ${opts.maze}`);
+  console.log(`Strategy: ${opts.strategy}`);
+  console.log(`Position: (${x},${y})`);
+  console.log(`History: ${opts.history ? 'yes' : 'no'}`);
+  console.log(`Think: ${opts.think}`);
   console.log('');
 
-  console.log('=== プロンプト ===');
+  console.log('=== Prompt ===');
   console.log(prompt);
   console.log('');
 
   const thinkValue = parseThink(opts.think);
-  console.log('=== 実行中... ===');
+  console.log('=== Running... ===');
   const response = await ollama.chat({
     model: opts.model,
     messages: [{ role: 'user', content: prompt }],
