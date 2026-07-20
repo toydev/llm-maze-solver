@@ -99,3 +99,15 @@ src/            # ソースコード
 ## License
 
 MIT
+
+## 関連記事
+
+以下は本実験についてまとめた記事である。
+
+- [第1回 — ローカルLLMの2D空間認識能力 ― プロンプト戦略の比較](https://ownway.info/ja/articles/spatial-recognition)
+- [第2回 — 魔法じゃない、愚直な思考 ― LLM の Reasoning を覗く](https://ownway.info/ja/articles/llm-reasoning)
+
+本実験は AI でドラクエを自力攻略するという目標の過程で生まれた基礎実験であった。その目標達成を記事にした。
+
+- [第1回 — コーディングエージェントにドラクエを攻略させる世界を作った ── 画面は見せない、答えも教えない](https://ownway.info/ja/articles/beat-dragon-quest-1)
+- [第2回 — 嘘をつけない記憶 ── コーディングエージェントはこうしてドラクエを自力攻略した](https://ownway.info/ja/articles/beat-dragon-quest-2)

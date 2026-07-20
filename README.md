@@ -99,3 +99,15 @@ src/            # Source code
 ## License
 
 MIT
+
+## Related Articles
+
+These articles summarize this experiment.
+
+- [Part 1 — 2D Spatial Recognition with Local LLM: Comparing Prompt Strategies](https://ownway.info/en/articles/spatial-recognition)
+- [Part 2 — Not Magic, Just Diligent Thinking — Peeking into LLM Reasoning](https://ownway.info/en/articles/llm-reasoning)
+
+This experiment was a foundational one born along the way toward the goal of having AI beat Dragon Quest on its own. That goal was achieved and written up.
+
+- [Part 1 — The World I Built for a Coding Agent to Beat Dragon Quest — No Screen, No Answers](https://ownway.info/en/articles/beat-dragon-quest-1)
+- [Part 2 — The Memory That Couldn't Lie: How a Coding Agent Beat Dragon Quest Solo](https://ownway.info/en/articles/beat-dragon-quest-2)
